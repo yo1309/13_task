@@ -1,0 +1,18 @@
+{% extends "mainlayout.html" %} 
+{% block title %}메인 페이지{% endblock %}
+{% block head %} 
+    {{ super() }} 
+{% endblock %} 
+{% block content %}
+<h2>회원 가입</h2>
+
+<form action="/join" method = "POST">
+  <label for="id">아이디</label><br>
+  <input type="text" id="id" name ="id"><br>
+  <label for="pw">비밀번호</label><br>
+  <input type="text" id="pw" name="pw"><br><br>
+  <label for="name">이름</label><br>
+  <input type="text" id="name" name ="name"><br>
+  <input type="submit" value="가입">
+</form> 
+{% endblock %}
