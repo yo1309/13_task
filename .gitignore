@@ -194,3 +194,6 @@ $RECYCLE.BIN/
 
 # End of https://www.gitignore.io/api/code,flask,python,windows
 env/
+dbdb.py/
+mydb.db/
+hello_db.db/
